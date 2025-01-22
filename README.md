@@ -12,7 +12,8 @@ Built a dependency injection container to learn how one actually works. Used thi
 
 This project was built using:
 
-- JavaScript (for now)
+- C#
+- JavaScript
 
 ## Running
 
@@ -22,11 +23,18 @@ To run this project, clone the repository using the following command:
 git clone https://github.com/guisaliba/di-container.git
 ```
 
-Then run:
+If you want to run the JavaScript implementation:
 
 ```bash
 cd src
 node index.js
+```
+
+For the C# implementation:
+
+```bash
+cd src
+dotnet run
 ```
 
 </samp>
