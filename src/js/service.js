@@ -1,9 +1,7 @@
 export class UserService {
   static dependencies = [];
 
-  constructor() {
-    console.log('UserService initialized');
-  }
+  constructor() {}
 }
 
 export class ConfigurableService {
@@ -12,6 +10,5 @@ export class ConfigurableService {
   // the constructor will receive the UserService instance as a parameter. it depends on it.
   constructor(userService) {
     this.userService = userService;
-    console.log('ConfigurableService initialized with UserService');
   }
 }

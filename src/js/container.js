@@ -28,6 +28,7 @@ export class Container {
         return this.resolve(dependency);
       });
 
+      console.log(`Resolving ${key} with dependencies: ${dependencies}`);
       return new implementation(...resolvedDependencies);
     } else {
       return implementation;

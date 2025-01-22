@@ -6,7 +6,4 @@ const container = new Container();
 container.register("UserService",UserService);
 container.register("ConfigurableService",ConfigurableService);
 
-console.log(container.getBindings());
-
 const myService = container.resolve("ConfigurableService");
-console.log(myService); // ConfigurableService { userService: UserService {} }
