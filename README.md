@@ -37,4 +37,7 @@ cd src
 dotnet run
 ```
 
+## References
+
+[Understanding Dependency Injection by writing a DI Container - from scratch!](https://dev.to/martinhaeusler/understanding-dependency-injection-by-writing-a-di-container-from-scratch-part-2-2np6)
 </samp>
