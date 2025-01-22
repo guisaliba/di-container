@@ -26,7 +26,7 @@ git clone https://github.com/guisaliba/di-container.git
 If you want to run the JavaScript implementation:
 
 ```bash
-cd src
+cd js
 node index.js
 ```
 
