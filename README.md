@@ -12,8 +12,7 @@ Built a dependency injection container to learn how one actually works. Used thi
 
 This project was built using:
 
-- C#
-- JavaScript
+- Node.js
 
 ## Running
 
