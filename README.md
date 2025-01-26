@@ -23,18 +23,11 @@ To run this project, clone the repository using the following command:
 git clone https://github.com/guisaliba/di-container.git
 ```
 
-If you want to run the JavaScript implementation:
-
-```bash
-cd js
-node index.js
-```
-
-For the C# implementation:
+Then run:
 
 ```bash
 cd src
-dotnet run
+node index.js
 ```
 
 ## References
