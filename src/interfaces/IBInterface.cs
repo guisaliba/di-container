@@ -1,6 +1,6 @@
 namespace src.interfaces;
 
-public interface IB
+public interface IBInterface
 {
   string BJob();
 }
